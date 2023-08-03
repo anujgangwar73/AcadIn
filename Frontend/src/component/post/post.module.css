@@ -1,0 +1,157 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.likeIcon
+{
+  width:30px;
+  height:30px;
+}
+
+
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postHr{
+  margin: 20px 0;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+.sidebarListItem{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.postLike{
+    /* width: 2px; */
+    /* height: 24px;  */
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.postComment{
+  /* width: 2px; */
+  /* height: 24px;  */
+  margin-right: 1px;
+  cursor: pointer;
+}
+
+.postCreateForum{
+  /* width: 2px; */
+  /* height: 24px;  */
+  margin-right: 1px;
+  cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+img { max-width: 100%; height: auto; }
+
+.post_form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.post_input {
+  flex: 1;
+}
+
+.comment_button {
+  border-radius: 12px;
+  padding: 10px 24px;
+  background-color: #008CBA;
+}
+
+/*Comment section*/
+
+.comments{
+  margin-top: 5%;
+}

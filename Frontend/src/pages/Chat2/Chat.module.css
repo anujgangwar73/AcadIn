@@ -1,0 +1,174 @@
+.messenger {
+    height: calc(100vh - 70px);
+    display: flex;
+  }
+  
+  .chatMenu {
+    flex: 3.5;
+  }
+  
+  .chatMenuInput {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .chatBox {
+    flex: 5.5;
+  }
+  
+  .chatBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .chatBoxTop {
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  
+  .chatBoxBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chatMessageInput {
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+  }
+  
+  .chatSubmitButton {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+  }
+  
+  .chatOnline {
+    flex: 3;
+  }
+  
+  .chatMenuWrapper,
+  .chatBoxWrapper,
+  .chatOnlineWrapper {
+    padding: 10px;
+    height: 100%;
+  }
+  
+  .noConversationText {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: rgb(224, 220, 220);
+    cursor: default;
+  }
+  .addfriendstochat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 54px;
+    margin-left: auto;
+    margin-right: 46px;
+    font-size: 24px;
+    height: 60px;
+    color: rgb(206, 182, 182);
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(102, 87, 87);
+    cursor: pointer;
+}
+.search{
+  height: 54px;
+  background-color: rgb(31, 28, 28);
+  display: flex;
+  align-items: center;
+}
+.searchbox{
+  margin: 7px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 36px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(54, 46, 46);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.searchicon{
+  margin-left: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.searchinput{
+  font-size: 16px;
+  border: none;
+  background-color: rgb(54, 46, 46);
+  color: rgb(233, 216, 216);
+  width: 70%;
+  margin-left: 30px;
+}
+.searchinput:focus{ 
+  outline: none;
+}
+.friendlists{
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.friendlists:hover{
+  background-color: rgb(97, 97, 92);
+}
+.pic{
+  width: 52px;
+  height: 52px;
+  margin: 12px;
+  margin-left: 18px;
+  margin-right: 0px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chattab{
+  display: flex;
+  flex-direction: column;
+}
+.friendname{
+  font-size: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  max-width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  
+  @media screen and (max-width: 768px) {
+    .chatMenu {
+      flex: 1;
+    }
+  
+    .chatMenuInput {
+      display: none;
+    }
+  
+    .chatBox{
+      flex: 10;
+    }
+  
+    .chatOnline{
+      flex: 1px;
+    }
+  }

@@ -1,0 +1,293 @@
+.page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(240, 221, 221);
+}
+.content{
+    margin-top: 23px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    background-color: rgb(54, 46, 46);
+    display: flex;
+    height: 86vh;
+}
+.left{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border-right-style: solid;
+    border-color: rgb(110, 108, 105);
+    border-width: 1px;
+}
+.addfriendstochat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 54px;
+    margin-left: auto;
+    margin-right: 46px;
+    font-size: 24px;
+    height: 60px;
+    color: rgb(206, 182, 182);
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(102, 87, 87);
+    cursor: pointer;
+}
+.user{
+    padding: 4px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+.profilepic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 8px;
+    object-fit: cover;
+    position: relative;
+}
+.heading{
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 12px;
+}
+.search{
+    height: 54px;
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    align-items: center;
+}
+.searchbox{
+    margin: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 36px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(54, 46, 46);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchicon{
+    margin-left: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.searchinput{
+    font-size: 16px;
+    border: none;
+    background-color: rgb(54, 46, 46);
+    color: rgb(233, 216, 216);
+    width: 70%;
+    margin-left: 30px;
+}
+.searchinput:focus{ 
+    outline: none;
+}
+.friend{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.nochat{
+    display: flex;
+    align-self: center;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.friendlist{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-style: solid;
+    border-color: rgb(88, 88, 86);
+    border-width: 1px;
+    cursor: pointer;
+}
+.friendlist:hover{
+    background-color: rgb(97, 97, 92);
+}
+.friendlists{
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.friendlists:hover{
+    background-color: rgb(97, 97, 92);
+}
+.pic{
+    width: 52px;
+    height: 52px;
+    margin: 12px;
+    margin-left: 18px;
+    margin-right: 0px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chattab{
+    display: flex;
+    flex-direction: column;
+}
+.friendname{
+    font-size: 20px;
+    margin-left: 16px;
+    max-width: 30ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lastchat{
+    margin-left: 16px;
+    max-width: 34ch;
+    font-size: 16px;
+    color: rgb(190, 179, 179);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.right{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+.username{
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 17px;
+}
+.menu{
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 13px;
+    font-size: 24px;
+    color: rgb(218, 201, 201);
+}
+.deletechat{
+    border-style: solid;
+    font-size: 18px;
+    padding: 2px;
+    padding-left: 8px;
+    border-radius: 4px;
+    font-weight: 380;
+    padding-right: 8px;
+    border-width: 1px;
+    border-color: rgb(128, 124, 124);
+    cursor: pointer;
+}
+.deletechat:hover{
+    background-color: rgb(75, 71, 71);
+}
+.middle{
+    flex: 22;
+    overflow-y: auto;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    overflow-x: hidden;
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    flex-direction: column;
+}
+.senttext{
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: 8px;
+    background-color: rgb(129, 106, 106);
+    width:fit-content;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 16px;
+    max-width: 40ch;
+    border-radius: 10px;
+}
+.received{
+    margin-left: 30px;
+    margin-bottom: 8px;
+    background-color: rgb(65, 56, 56);
+    width:fit-content;
+    padding: 7px;
+    padding-left: 16px;
+    padding-right: 10px;
+    max-width: 40ch;
+    border-radius: 10px;
+}
+.bottom{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.message{
+    background-color: rgb(77, 67, 67);
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 100%;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.textarea{
+    font-size: 17px;
+    width: 100%;
+    margin-left: 14px;
+    border: none;
+    display: flex;
+    background-color: rgb(77, 67, 67);
+    color: white;
+}
+.textarea:focus{ 
+    outline: none;
+}
+.send{
+    margin-right: 40px;
+    font-size: 26px;
+    color: rgb(143, 129, 129);
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.dialog{
+    width: 500px;
+    height: auto;
+    max-height: 500px;
+    overflow: hidden;
+    background-color: rgb(31, 28, 28);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(117, 110, 110);
+    display: flex;
+    flex-direction: column;
+}
+.searchspace{
+    margin: 20px;
+}
+.dialoglist{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+}
+.nofound{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(155, 144, 144);
+}

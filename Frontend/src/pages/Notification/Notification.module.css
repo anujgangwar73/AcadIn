@@ -1,0 +1,76 @@
+.page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.notification{
+    margin-top: 50px;
+    margin-left: 260px;
+    margin-right: 340px;
+    display:flex;
+}
+.user{
+    flex: 3;
+    height: 250px;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    box-shadow: 0 0 6px 1px rgb(31, 29, 32);
+    background-color: rgb(247, 240, 240);
+    display: flex;
+    color: rgb(59, 51, 51);
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.profilepic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(70, 53, 53);
+    cursor: pointer;
+}
+.username{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.bio{
+    text-align:center;
+    font-size: 15px;
+    max-width: 26ch;
+    padding-top: 5px;
+    padding-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.follow{
+    width: 110px;
+    height: 26px;
+    padding: 2px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: rgb(24, 11, 209);
+    color: rgb(24, 11, 209);
+}
+.view{
+    cursor: pointer;
+    padding-top: 6px;
+    color: rgb(59, 51, 51);
+    text-decoration: none;
+    font-weight: bold;
+}
+.notify{
+    flex: 7;
+    height: auto;
+    margin: 10px;
+    margin-left: 20px;
+    box-shadow: 0 0 6px 1px rgb(31, 29, 32);
+    background-color: rgb(247, 240, 240);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
